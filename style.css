@@ -1,9 +1,24 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(31, 25, 198);
+    background-color: rgb(4, 9, 13);
     color: rgb(253, 247, 247);
+    text-align: center;
 }
 
 h1 {
     font-size: 36px;
+    text-decoration: underline overline rgb(42, 209, 184);
+}
+
+ul,ol {
+    list-style:inside;
+    display: inline-block;
+    text-align: left;
+}
+a:link {
+    color: rgb(42, 209, 184);
+}
+
+a:hover {
+    color:rgb(70, 65, 150);
 }
